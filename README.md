@@ -18,7 +18,7 @@ Ear clipping algorithm can be referred from the book "COMPUTATIONAL GEOMETRY IN 
 I have implemented the ear clipping algorithm as per the book. It's runtime is $O(n^2)$. This program defines the `Polygon` class which is defined by a ordered set of vertices in counter-clock-wise manner. 
 The function `triangulate()` can triangulate any given polygon which is an instance of the `Polygon` class. Similarly, to visualise triangulation, one can make use of the function `triangulate_and_plot()`. Here is an example plot produced.
 <p align="center">
-<img src="https://github.com/berserank/Polygon-Triangulation/blob/main/Batman.png" alt="Alt Text" width="600" height="400">
+<img src="https://github.com/berserank/Polygon-Triangulation/blob/main/Batman.png" alt="Alt Text" width="700" height="400">
 </p>
 
 ## [Triangulation - CGAL Implementation and Comparison](https://github.com/berserank/Polygon-Triangulation/blob/main/cgal_triangulation.py)
