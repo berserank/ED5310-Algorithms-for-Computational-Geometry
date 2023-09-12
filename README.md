@@ -5,7 +5,7 @@ Aim :  This assignment is on the implementation of the triangulation algorithm (
 
 This is a modular implementation of polygon triangulation consisting of three parts.
 
-## [Polygon Generator](https://github.com/berserank/Polygon-Triangulation/blob/main/polygon_generator.py)https://github.com/berserank/Polygon-Triangulation/blob/main/polygon_generator.py)
+## [Polygon Generator](https://github.com/berserank/Polygon-Triangulation/blob/main/polygon_generator.py)
 
 This piece code was used to generate the polygon dataset. For a given n number of vertices, We randomly choose angles from $0$ to $2\pi$ and sort them in the increasing order. At every angle, we can randomly choose a vertex, thus resulting in a legible convex/non-convex polygon.
 
