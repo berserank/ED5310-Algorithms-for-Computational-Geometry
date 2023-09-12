@@ -15,8 +15,17 @@ Using the function `polygon_generator(n)` we can create a polygon (Convex or Non
 
 Ear clipping algorithm can be referred from the book "COMPUTATIONAL GEOMETRY IN C - JOSEPH O'ROURKE" or from [here](https://www.geometrictools.com/Documentation/TriangulationByEarClipping.pdf)
 
-I have implemented the ear clipping algorithm as per the book. This program defines the `Polygon` class which is defined by a ordered set of vertices in counter-clock-wise manner. 
+I have implemented the ear clipping algorithm as per the book. It's runtime is $O(n^2)$. This program defines the `Polygon` class which is defined by a ordered set of vertices in counter-clock-wise manner. 
 The function `triangulate()` can triangulate any given polygon which is an instance of the `Polygon` class. Similarly, to visualise triangulation, one can make use of the function `triangulate_and_plot()`. Here is an example plot produced.
 <p align="center">
 <img src="https://github.com/berserank/Polygon-Triangulation/blob/main/Batman.png" alt="Alt Text" width="600" height="400">
 </p>
+
+## [Triangulation - CGAL Implementation and Comparison](https://github.com/berserank/Polygon-Triangulation/blob/main/cgal_triangulation.py)
+
+This section contains the CGAL impementation of triangulation using the `Constrained_triangulation_2` class. We compare the runtimes of both the implementations for polygons of sizes 4 to 200. Plot is attached below.
+
+<p align="center">
+<img src="https://github.com/berserank/Polygon-Triangulation/blob/main/Comparison.png" alt="Alt Text" width="600" height="400">
+</p>
+
