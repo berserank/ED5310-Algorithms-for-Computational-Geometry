@@ -26,6 +26,6 @@ The function `triangulate()` can triangulate any given polygon which is an insta
 This section contains the CGAL impementation of triangulation using the `Constrained_triangulation_2` class. We compare the runtimes of both the implementations for polygons of sizes 4 to 200. Plot is attached below.
 
 <p align="center">
-<img src="https://github.com/berserank/Polygon-Triangulation/blob/main/Comparison.png" alt="Alt Text" width="600" height="400">
+<img src="https://github.com/berserank/Polygon-Triangulation/blob/main/Comparison.png" alt="Alt Text" width="600" height="800">
 </p>
 
